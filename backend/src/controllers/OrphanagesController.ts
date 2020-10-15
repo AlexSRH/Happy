@@ -6,7 +6,7 @@ import Orphanage from '../models/Orphanage'
 import orphanagesView from '../views/orphanagesView'
 
 export default {
-  async index(request: Request, response: Response) {
+  async index(_: Request, response: Response) {
     const orphanageRepository = getRepository(Orphanage)
 
     const orphanages = await orphanageRepository.find({
@@ -36,7 +36,8 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends
+      open_on_weekends,
+      whatsapp
     } = request.body
 
     const orphanageRepository = getRepository(Orphanage)
@@ -55,6 +56,7 @@ export default {
       instructions,
       opening_hours,
       open_on_weekends,
+      whatsapp,
       images
     }
 
@@ -66,6 +68,7 @@ export default {
       instructions: Yup.string().required(),
       opening_hours: Yup.string().required(),
       open_on_weekends: Yup.boolean().required(),
+      whatsapp: Yup.string().required(),
       images: Yup.array(Yup.object().shape({
         path: Yup.string().required()
       }))
