@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/alexsrh/happy-nlw3">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alexsrh/happy-nlw3">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexsrh/happy-nlw3">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/alexsrh/happy">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/alexsrh/happy">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/alexsrh/happy">
 </p>
 
 <br>
