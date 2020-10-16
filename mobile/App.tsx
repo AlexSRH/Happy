@@ -7,7 +7,6 @@ import {
   Nunito_800ExtraBold
 } from '@expo-google-fonts/nunito'
 
-
 import Routes from './src/routes'
 
 export default function App() {

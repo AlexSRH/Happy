@@ -49,7 +49,6 @@ const CreateOrphanage: React.FC = () => {
       data.append('images', image)
     })
 
-    console.log(data)
     await api.post('orphanages', data)
 
     alert('Cadastro realizado com sucesso')
